@@ -2,11 +2,13 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
     margin-bottom: 25px;
-    /* max-height: 400px; */
+    max-height: 350px;
+    max-height: 300px;
     background-color: #fff;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
     overflow: hidden;
-    width: 50%;
+    width: 47%;
+    padding: 0px 4px 0px 4px;
 
     &:hover{
         box-shadow: 3px 3px 3px 6px rgba(0, 0, 0, 0.2);
