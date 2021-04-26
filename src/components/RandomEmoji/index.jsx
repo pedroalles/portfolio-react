@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const emojis = "📀 💽 💾 💿 💻 📱 📊 📚 📖 📘 📂 ⌨ 🖱".split(" ") 
+const emojis = "💽 💾 💿 💻 📱 📊 📚 📖 📘 📂 ⌨ 🖱 🕹".split(" ") 
 
 const RandomEmoji = () =>{
     const [emoji, setEmoji] = useState(emojis[Math.floor(Math.random() * emojis.length)])
