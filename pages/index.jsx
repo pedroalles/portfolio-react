@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import Card from '../src/components/Card'
+import RandomEmoji from '../src/components/RandomEmoji'
 import { Container, Title, Cards } from '../styles/home';
 
 export default function Home() {
   return (
       <Container>
-        <Title>Welcome to my Portfolio</Title>
+        <Title>Welcome to my Portfolio <RandomEmoji /></Title>
         <hr/>
         <Cards>
           <Card title='Project 1' img="../assets/images/img1.png" alt=''/>
