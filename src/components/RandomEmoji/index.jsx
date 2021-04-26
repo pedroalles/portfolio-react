@@ -8,7 +8,7 @@ const RandomEmoji = () =>{
     useEffect(() =>{
         setInterval(function(){
             setEmoji(executeRandomize())
-        }, 2000)
+        }, 1500)
     }, [])
         
     const executeRandomize = () =>{
