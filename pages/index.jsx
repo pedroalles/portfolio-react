@@ -26,8 +26,9 @@ export default function Home() {
             <Card 
               key={repo.id}
               title={repo.name} 
-              description={repo.description === null ? '- No description.' : '- ' + repo.description} 
+              description={repo.description === null ? 'No description.' : repo.description} 
               img="../assets/images/image1.jpg" 
+              link={repo.html_url}
               alt=''/>
           ))}
         </Cards>
