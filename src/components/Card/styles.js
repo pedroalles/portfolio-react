@@ -37,7 +37,7 @@ export const Description = styled.h3`
     color: #E9DFDE;
     text-align: justify;
     font-size: 0.95em;
-    min-height: 2.5em;
+    min-height: 3em;
     margin-top: 5px;
     margin-left:  5px;
     margin-right:  5px;
