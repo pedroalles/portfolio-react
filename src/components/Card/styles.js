@@ -1,10 +1,10 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+    background-color: #293040;
     margin-bottom: 25px;
     max-height: 350px;
     max-height: 300px;
-    background-color: #fff;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     width: 47%;
@@ -24,17 +24,19 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h2`
+    color: #E9DFDE;
     text-align: center;
     font-size: 22px;
-    margin-top: 10px;
-    margin-bottom:10px;
-    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 600;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 `
 
 export const Description = styled.h3`
+    color: #E9DFDE;
     text-align: justify;
-    font-size: 16px;
+    font-size: 0.95em;
     min-height: 2.5em;
     margin-top: 5px;
     margin-left:  5px;
