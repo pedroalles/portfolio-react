@@ -32,6 +32,17 @@ export const Title = styled.h2`
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 `
 
+export const Description = styled.h3`
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+`
+
 export const Image = styled.img`
     width: 100%;
 `
